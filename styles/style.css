@@ -1,0 +1,22 @@
+* {
+font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  gap: 16px;
+  padding: 8px 16px;
+}
+
+.pokemon-card { 
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  width: 100%;
+  align-items: center;
+  border: 3px solid #eee;
+}

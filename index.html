@@ -5,9 +5,49 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
-  <div id="container"></div>
-
+  <div class="container">
+    <h1>Pokeapi app</h1>
+    <div class="pokemon-container">
+      <div class="pokemon-section" id="pokemon-section-1">
+        <div class="search-form">
+          <label for="pokemon-id-1">Pokémon 1</label>
+          <div class="form-group">
+            <input type="number" id="pokemon-id-1" placeholder="Ingresa el ID del Pokémon">
+            <button id="search-button-1">Buscar</button>
+          </div>
+          <div class="error-message" id="error-1"></div>
+        </div>
+        
+        <div class="card-container" id="card-container-1">
+          <div class="pokemon-card empty">
+            <p>Ingresa un ID para buscar un Pokémon</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pokemon-section" id="pokemon-section-2">
+        <div class="search-form">
+          <label for="pokemon-id-2">Pokémon 2</label>
+          <div class="form-group">
+            <input type="number" id="pokemon-id-2" placeholder="Ingresa el ID del Pokémon">
+            <button id="search-button-2">Buscar</button>
+          </div>
+          <div class="error-message" id="error-2"></div>
+        </div>
+        
+        <div class="card-container" id="card-container-2">
+          <div class="pokemon-card empty">
+            <p>Ingresa un ID para buscar un Pokémon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="battle-section">
+      <button id="battle-button" class="battle-button" >¡Iniciar Batalla!</button>
+      <div class="battle-result" id="battle-result"></div>
+    </div>
+  </div>
   
   <script src="js/index.js"></script>
 </body>

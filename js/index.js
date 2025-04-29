@@ -129,8 +129,10 @@ function setLoading(position) {
 }
 
 function clearWinner() {
-  pokemonSection1.classList.remove('winner')
-  pokemonSection2.classList.remove('winner')
+  pokemonSection1.classList.remove('winner');
+  pokemonSection2.classList.remove('winner');
+
+  battleResult.innerText = '';
 }
 
 function clearLoading(position) {
